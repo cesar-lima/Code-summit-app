@@ -1,5 +1,5 @@
 import logo from '@/assets/Logo.svg'
-import { Mail, Radio, User } from 'lucide-react'
+import { ArrowRight, ArrowRightIcon, Mail, Radio, User } from 'lucide-react'
 
 import { Button } from '@/components/button'
 import { InputField, InputIcon, InputRoot } from '@/components/input'
@@ -61,7 +61,10 @@ export default function Home() {
 								<InputField type="email" placeholder="E-mail" />
 							</InputRoot>
 
-							<Button type="submit">Confirmar</Button>
+							<Button type="submit">
+								Confirmar
+								<ArrowRight />
+							</Button>
 						</div>
 					</form>
 				</div>
