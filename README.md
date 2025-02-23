@@ -1,19 +1,18 @@
-## Instalação e Execução do Devstage com Next.js e Docker
+# Instalação e Execução do Devstage
 
 ### Requisitos
 
 Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
 
-- Node.js (versão recomendada: LTS)
+- Node.js
 - Docker
-- Docker Compose
 
 ### Passos para Instalação
 
 1. **Clone o repositório**
 
 ```bash
-git clone [https://github.com/cesar-lima/Devstage.git](https://github.com/cesar-lima/Devstage.git)
+git clone https://github.com/cesar-lima/Devstage.git
 cd Devstage
 ```
 
@@ -48,14 +47,10 @@ npm run db:migrate
 npm run dev
 ```
 
-Agora a aplicação estará rodando localmente. Normalmente, estará disponível em http://localhost:3000/.
+Agora a aplicação estará sendo executada localmente. Normalmente, estará disponível em  ```http://localhost:3000/```.
 
-# Considerações
-Para verificar se o banco de dados está rodando corretamente, você pode usar
-```bash
-docker ps
-```
+### Considerações
+- Para verificar se o banco de dados está rodando corretamente, você pode usar  ```docker ps```
+- A documentação da API pode ser acessada em  ```http://localhost:3333/docs```.
 
-- A documentação da API pode ser acessada em: http://localhost:3333/docs
-
-**Agora você está pronto para desenvolver e testar sua aplicação Next.js localmente!**
+**Agora você está pronto para testar a aplicação localmente!**
