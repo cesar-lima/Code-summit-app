@@ -11,7 +11,7 @@ export default function Home() {
 				<Image src={logo} alt="devstage" width={108.5} height={30} />
 
 				<h1 className="text-4xl - text-center leading-none font-heading font-medium flex flex-col md:text-7xl md:text-left">
-					<span className="text-blue">CodeCraft</span>Summit 2025
+					<span className="text-blue">CodeCraft</span>Summit
 				</h1>
 			</div>
 
